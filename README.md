@@ -6,4 +6,4 @@
 ![screenshot](https://i.imgur.com/eoyTZxE.png)
 
 ## Dining Philosophers
-![running gif](https://gfycat.com/CourageousOffbeatDunlin)
+![screenshot](https://i.imgur.com/nCEpdTO.png)
