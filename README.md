@@ -7,3 +7,6 @@
 
 ## Dining Philosophers
 ![screenshot](https://i.imgur.com/nCEpdTO.png)
+
+## Sleeping Barber
+![screenshot](https://i.imgur.com/XJS8Ggz.png)
