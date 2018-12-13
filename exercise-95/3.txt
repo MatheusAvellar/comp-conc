@@ -1,0 +1,16 @@
+Temos 10 contas com quantias desconhecidas.
+À 1:00, "n" threads tentam transferir $100 de alguma conta para sua
+própria conta.
+Às 2:00, uma thread "Boss" deposita $1000 em todas as contas.
+Toda transferência feita à 1:00 irá terminar?
+
+R: Não necessariamente.
+
+Se possuirmos 10 threads, todas removendo $100 de uma mesma conta (princípio da
+casa dos pombos: ao menos duas threads irão transferir para a mesma conta) cuja
+quantia inicial era $0, essa conta azarada terminará com $0 após o depósito da
+thread "Boss".
+
+Porém, se possuirmos mais de 10 threads subtraindo quantias de uma mesma conta,
+a quantia depositada pela thread "Boss" nem sempre será suficiente para quitar
+todas as dívidas, dependendo da quantia inicial da conta.
